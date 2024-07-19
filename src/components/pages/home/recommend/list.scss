@@ -12,6 +12,14 @@
     width: 100%;
     max-width: 300px; /* Adjust the width as needed */
     margin: 0 auto;
+    border: none;
+ 
   }
-  
-  
+ .card-img-top{
+  border-radius: 10px;
+ } 
+
+ .card-body{ 
+ margin: 4px 0px 0px; 
+ padding: 4px 0px 0px;
+ } 

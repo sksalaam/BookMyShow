@@ -74,8 +74,8 @@ export const MoviesList = () => {
                 <img src={movie.cardImg} className="card-img-top" />
 
                 <div className="card-body">
-                  <h5 className="card-title"></h5>
-                  <p></p>
+                  <h5 className="card-title">{movie.name}</h5>
+                  <p>{movie.movieGenre}</p>
                 </div>
               </div>
             </SwiperSlide>

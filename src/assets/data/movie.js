@@ -171,4 +171,101 @@ export const movieList = [
       },
     ],
   },
+  {
+    id:3,
+    name:'Indian 2',
+    cardImg:'https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-NS4yLzEwICA0OS44SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00064311-ywcgtfbvag-portrait.jpg',
+    bannerImg:'https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/indian-2-et00064311-1720515688.jpg',
+    rating:5.2,
+    movieExplore:'2D, ICE, 4DX, IMAX 2D',
+    language:'Tamil',
+    timePeriod:'3h',
+    movieGenre:'Action, Drama, Thriller',
+    date:'12 JUl, 2024',
+    votes:'50K',
+    aboutMovie:'In this sequel to the 1996 film Indian, Kamal Hassan reprises his role as Senapathy, an ex-freedom fighter turned vigilante who fights against corruption. Senapathy returns to the country to aid a young man who has been exposing corrupt politicians in the country through videos on the internet.',
+    cast_crew: [
+      {
+        title: "Cast",
+        data: [
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/kamal-haasan-2886-24-03-2017-17-54-38.jpg",
+            name: "Kamal Haasan",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/siddharth-suryanarayan-2165-18-09-2017-04-12-25.jpg",
+            name: "Siddharth",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/kajal-aggarwal-1051555-19-09-2017-10-38-45.jpg",
+            name: "Kajal Aggarwal",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/rakul-preet-singh-25717-07-10-2016-01-01-08.jpg",
+            name: "Rakul Preet Singh",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/priya-bhavani-shankar-1086843-16-10-2017-01-49-49.jpg",
+            name: "Bhavani Shankar",
+          },
+          {
+          img: 'https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vivek-2507-13-11-2020-05-47-03.jpg',
+          name:'Vivek',
+          },
+          {
+            img:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/bobby-simha-1044195-21-07-2021-01-36-49.jpg",
+            name:"Bobby Simha"
+          },
+          {
+            img:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/samuthirakani-1052542-24-03-2017-17-46-22.jpg",
+            name:"Samuthirakani"
+          },
+          {
+            img:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/nedumudi-venu-1574-24-03-2017-12-45-37.jpg",
+            name:"Nedumdi Venu"
+          },
+          {
+            img:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/brahmanandam-kanneganti-2692-17-04-2017-18-11-46.jpg",
+            name:"Brahmanandam Kanneganti"
+          }
+        ],
+      },
+      {
+        title: "Crew",
+        data: [
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/shankar-shanmugham-1052281-24-03-2017-17-34-41.jpg",
+            name: "Shankar Shanmugham-",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/a-subaskaran-1080445-14-08-2018-11-47-43.jpg",
+            name: "A. Subaskaran-",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/anirudh-ravichander-34897-24-03-2017-13-54-49.jpg",
+            name: "Anirudh Ravichander",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/ravi-varman-19066-30-03-2017-16-47-55.jpg",
+            name: "Ravi Varman",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/a.-sreekar-prasad-iein008770-24-03-2017-14-02-53.jpg",
+            name: "A. Sreekar Prasad",
+          },
+          
+        ],
+      },
+    ],
+  } 
 ];
