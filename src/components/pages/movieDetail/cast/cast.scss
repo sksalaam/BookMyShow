@@ -1,0 +1,37 @@
+.castImg{
+    border-radius: 100%;
+
+}
+.cast-slide {
+    padding: 0 5px;
+}
+
+.cast-slide img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.cast-slide p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.castCrewInfo{
+    .swiper-button-next,
+              .swiper-button-prev {
+                width: 40px;
+                height: 40px;
+                background-color: rgba(34, 34, 34, 0.8);
+                border-radius: 100%;
+                border: none;
+            
+                color: rgb(255, 255, 255);
+                &::after{
+                    font-size: 15px;
+                }
+            }
+        }
+        .castNames{
+            font: weight 500;
+            color: #000;
+        }

@@ -1,0 +1,5 @@
+export {HomeBanner} from './banner'
+export { MoviesList } from './recommend'
+export { TextImage } from './banner2'
+export { LiveEvents } from './liveEvents'
+export { Premieres } from './premieres'
