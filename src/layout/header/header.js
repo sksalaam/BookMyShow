@@ -1,13 +1,18 @@
 import './header.scss'
 import logo from './logo.png'
-
+import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
+  const navigate = useNavigate();
+  const handleLogoClick =()=>{
+    navigate('/')
+
+  }
   return (
     <nav className="navbar bg-white shadow app-header ">
       <div className="container mt-0 p-2 ">
         <div className="navbar-logo">
-          <img src={logo} alt='BookMyShow'/>
+          <img src={logo} alt='BookMyShow' onClick={handleLogoClick}/>
         </div>
         <form className="d-flex search-bar" role="search">
           <div className="input-group">

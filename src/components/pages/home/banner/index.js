@@ -13,7 +13,7 @@ const bannerImg=[
     bannerImg:'https://assets-in.bmscdn.com/promotions/cms/creatives/1717080055549_playcardweb.jpg'
   },
   {
-    bannerImg:'https://assets-in.bmscdn.com/promotions/cms/creatives/1717080055549_playcardweb.jpg'
+    bannerImg:'https://assets-in.bmscdn.com/promotions/cms/creatives/1721376038038_goodboyinventoryweb.jpg'
   }
 ]
 
