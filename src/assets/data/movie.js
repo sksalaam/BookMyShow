@@ -699,7 +699,67 @@ export const movieList = [
           }
         ],
       },
-    ],
-
+    ]
+  },
+  {
+    id: 9,
+    name: "Longlegs",
+    cardImg:"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny8xMCAgMi44SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00397621-cjwdjjzams-portrait.jpg",
+    bannerImg:"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/longlegs-et00397621-1715334484.jpg",
+    rating: "7",
+    movieExplore: "2D",
+    language: "English",
+    timePeriod: "1h 43m",
+    movieGenre: "Horror, Thriller",
+    date: "12 Jul, 2024",
+    votes: "2.8K",
+    aboutMovie: "FBI Agent Lee Harker, a gifted recruit, is assigned the unsolved case of an elusive serial killer. While unearthing evidence, Harker discovers a personal connection to the merciless killer and must race against time to stop him before he claims the lives of another innocent family.",
+    cast_crew: [
+      {
+        title: "Cast",
+        data: [
+          {
+            img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/maika-monroe-1051837-1659687006.jpg",
+            name: "Maika Monroe",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/nicolas-cage-1596-24-03-2017-12-35-24.jpg",
+            name: "Nicolas Cage",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/alicia-witt-29242-18-03-2021-05-41-10.jpg",
+            name: "Alicia Witt",
+          }
+        ]
+      },
+      {
+        title: "Crew",
+        data: [
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/oz-perkins-2036958-1715228069.jpg",
+            name: "Oz Perkins",
+          },
+          {
+            img:
+             "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/nicolas-cage-1596-24-03-2017-12-35-24.jpg",
+           name: "Nicolas Cage",
+         },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/jason-cloth-2006145-30-12-2019-04-22-45.jpg",
+            name: "Jason Cloth",
+          },
+          {
+             img:
+              "https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/fred-berger-2030626-1694081778.jpg",
+            name: "Fred Berger"
+          }
+        ]
+      }
+    ]
   }
 ];

@@ -1,9 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./home";
 import { MovieDetails } from "./MovieDetails";
-import { Profile } from "./profile";
 import { AppLayout } from "../layout";
-
 
 export const Pages=()=>{
     return(
@@ -11,10 +9,7 @@ export const Pages=()=>{
         <AppLayout>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/movieDetail/:movieId" element={<MovieDetails/>}/>
-            <Route path="/movieDetail/:movieName" element={<MovieDetails/>}/>
-            <Route path="/profile" element={<Profile/>}/>
-
+            <Route path="/movieDetail/:movieId" element={<MovieDetails/>}/>               
         </Routes>
         </AppLayout>
         </BrowserRouter>
