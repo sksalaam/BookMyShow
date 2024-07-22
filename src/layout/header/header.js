@@ -1,13 +1,21 @@
 import './header.scss'
 import logo from './logo.png'
 import { useNavigate } from "react-router-dom";
+import { useState } from 'react';
+import { movieList } from '../../assets/data/movie';
 
 export const Header = () => {
   const navigate = useNavigate();
   const handleLogoClick =()=>{
     navigate('/')
-
   }
+  // const [searchQuery, setSearchQuery]=useState("");
+  // const handelInputChange = (event)=>{
+  //   setSearchQuery(event.target.value)
+  // }
+  // const handleSearch =()=>{
+
+  // }
   return (
     <nav className="navbar bg-white shadow app-header ">
       <div className="container mt-0 p-2 ">
@@ -17,7 +25,7 @@ export const Header = () => {
         <form className="d-flex search-bar" role="search">
           <div className="input-group">
             <span className="input-group-text bg-transparent">
-              <i className="fa-solid fa-magnifying-glass"></i>
+              <i className="fa-solid fa-magnifying-glass" ></i>
             </span>
             <input
               type="text"
@@ -25,6 +33,8 @@ export const Header = () => {
               placeholder="Search for Movies"
               aria-label="Search.."
               aria-describedby="basic-addon1"
+             
+
             />
           </div>
         </form>

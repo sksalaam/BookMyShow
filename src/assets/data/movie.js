@@ -369,7 +369,7 @@ export const movieList = [
     movieExplore: "2D",
     language: "Telugu",
     timePeriod: "2h 41m",
-    movieGenre: "Comedy, Romanctic",
+    movieGenre: "Comedy, Romantic",
     date: "19 Jul, 2024",
     votes: "1.4K",
     aboutMovie: "Raghav works diligently at a tourist office, saving money for his dream honeymoon in Paris. Accidentally, he meets and marries Anandhi. How will he face the challenges that arise?",
