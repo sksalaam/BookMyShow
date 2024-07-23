@@ -544,7 +544,7 @@ export const movieList = [
     movieExplore: "2D, MAX4D, ICE, 2D SCREEN X, 4DX, IMAX 2D",
     language: ["English", "Hindi"],
     timePeriod: "2h 2m",
-    movieGenre: "Action, Adventure, Thriller",
+    movieGenre: ["Action", "Adventure", "Thriller"],
     date: " 18 Jul, 2024",
     votes: "2K",
     aboutMovie: "Kate Cooper, haunted by a devastating encounter with a tornado during her college years, studies storm patterns on screens safely in New York City. She is lured back to the open plains by her friend, Javi to test a groundbreaking new tracking system. There, she crosses paths with Tyler Owens, the charming and reckless social-media superstar who thrives on posting his storm-chasing adventures with his raucous crew, the more dangerous the better.",
