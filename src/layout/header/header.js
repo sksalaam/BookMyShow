@@ -18,8 +18,6 @@ export const Header = () => {
           <img src={logo} alt='BookMyShow' onClick={handleLogoClick}/>
         </div>
         <GenericSearch/>
-        
-
         <div className="d-flex align-items-center ">
           <button className="login-btn header-btn me-2 " type="submit">
             Login

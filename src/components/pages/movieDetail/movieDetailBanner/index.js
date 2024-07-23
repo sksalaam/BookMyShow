@@ -1,5 +1,12 @@
 import "./movieDetailBanner.scss";
+import { useNavigate } from "react-router-dom";
+
 export const MovieDetailsBanner = ({ movieDetail = {} }) => {
+  const navigate = useNavigate();
+  const bookticket =(id)=>{
+    navigate('/seatBooking/'+id)
+
+  }
   return (
     <div className="wrapper">
       <section className="bannerContainer">
@@ -55,7 +62,8 @@ export const MovieDetailsBanner = ({ movieDetail = {} }) => {
                         </div>
                         <div>
                           <div className="linkedElementsContainer2">
-                            <a href="">{movieDetail.language}</a>
+                          <a href="">{movieDetail.language ? movieDetail.language.join(', ') : ''}</a>
+
                           </div>
                         </div>
                       </div>
@@ -63,7 +71,7 @@ export const MovieDetailsBanner = ({ movieDetail = {} }) => {
                         {movieDetail.timePeriod}
                         <span className="pe-2 ps-2"> • </span>
                         <a href="" className="genre">
-                          {movieDetail.movieGenre}
+                          {movieDetail.movieGenre ? movieDetail.movieGenre.join(', '): ''}
                         </a>
                         <span className="pe-2 ps-2"> • </span>
                         UA
@@ -72,7 +80,7 @@ export const MovieDetailsBanner = ({ movieDetail = {} }) => {
                       </div>
                       <div className="bookTicketBtnWrapper">
                         <div className="bookTicketBtnContainer">
-                          <button className="bookTicketBtn">
+                          <button className="bookTicketBtn" onClick={()=>bookticket(movieDetail.id)}>
                             Book tickets
                           </button>
                         </div>

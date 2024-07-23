@@ -37,7 +37,7 @@ export const GenericSearch = () => {
             type="text"
             className="form-control border-start-0"
             placeholder="Search for Movies"
-        value={searchInput}
+            value={searchInput}
             onChange={onChange}
           />
         </div>
