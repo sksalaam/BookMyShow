@@ -18,7 +18,7 @@ export const MovieDetails = () => {
   const det= movieList.find((data)=>data.id == movieId)
 
   setMovieDetail(det)
- },[])
+ },[movieId])
   
 
   return (

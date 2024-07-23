@@ -1,7 +1,12 @@
 .app-header{
     margin: 0;
     padding: 0;
-    
+    position: relative;
+.container{
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+}
 .login-btn{
     color: rgb(255, 255, 255);
     background-color: rgb(248, 68, 100);
@@ -17,24 +22,12 @@
     line-height: 1;
     width: 67px;
 }
-.search-bar{
-    width: 50%;
 
-    .input-group-text,.form-control{
-        border: 1px solid #d2d2d2ee;
-        border-radius: 4px;
-    }
-}
 img{
     height: 55px;
 }
 .navbar-logo{
     cursor: pointer;
 }
-.input-group{
-    cursor: pointer;
-
-}
-
 }
 

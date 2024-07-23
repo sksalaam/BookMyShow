@@ -9,7 +9,8 @@ export const Pages=()=>{
         <AppLayout>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/movieDetail/:movieId" element={<MovieDetails/>}/>               
+            <Route path="/movieDetail/:movieId" element={<MovieDetails/>}/>    
+                  
         </Routes>
         </AppLayout>
         </BrowserRouter>

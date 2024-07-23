@@ -1,0 +1,29 @@
+.search-container {
+    width: 50%;
+    position: relative;
+  }
+  
+  .search-bar {
+    width: 100%;
+    .input-group-text, .form-control {
+      border-radius: 4px;
+    }
+  }
+  
+  .searchResult {
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+  
+    .list-group-item {
+      padding: 8px 12px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #dadada;
+      }
+    }
+  }
+   
