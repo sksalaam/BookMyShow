@@ -1,11 +1,10 @@
-import { Pages } from './pages';
-import './App.css';
+import { Pages } from "./pages";
+import "./App.css";
 
 function App() {
   return (
     <>
-    
-    <Pages/>
+      <Pages />
     </>
   );
 }

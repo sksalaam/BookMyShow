@@ -1,5 +1,24 @@
+import { MovieTitle } from "./movieDetails"
+import { movieList } from "../../assets/data/movie"
+import { useParams } from "react-router-dom"
+import { useEffect, useState } from "react"
+import { Calendar } from "./calendar"
+
 export const SeatBooking =()=>{
+    const {movieId}=useParams()
+
+ const [movie, setMovie ] = useState({})
+
+    useEffect (()=>{
+    
+        const det = movieList.find((data)=>data.id == movieId)
+        setMovie(det)
+
+    }, [])
     return(
-        <div>Seat Booking</div>
+       <>
+       <MovieTitle movie={movie} />
+       <Calendar/>
+       </>
     )
 }
