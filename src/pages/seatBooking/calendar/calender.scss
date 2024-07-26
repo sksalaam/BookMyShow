@@ -1,0 +1,67 @@
+.dates-wrapper {
+  margin: 6px auto 6px 30px;
+  float: left;
+}
+.date-href {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+.dates-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.date-details {
+  padding: 5px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.date {
+  font-size: 13px;
+  line-height: 12px;
+}
+.day {
+  font-size: 10px;
+  line-height: 12px;
+}
+.month {
+  font-size: 10px;
+  line-height: 12px;
+}
+.prev {
+  border: none;
+  background: none;
+  .fa-solid {
+    color: #979899;
+    &:hover {
+      color: #00000072;
+    }
+  }
+}
+.next {
+  border: none;
+  background: none;
+  .fa-solid {
+    color: #979899;
+    &:hover {
+      color: #000000;
+    }
+  }
+}
