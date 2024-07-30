@@ -1,7 +1,7 @@
 import "./movieTitle.scss";
 export const MovieTitle = ({ movie = {} }) => {
   return (
-  <div className="wrapper">
+  <div className="wrapper container-fluid">
     <div className="movie-details container">
       <div className="title">
         <h1 className="title-text">

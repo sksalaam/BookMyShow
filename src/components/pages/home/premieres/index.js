@@ -38,8 +38,9 @@ export const Premieres =()=>{
     ]
    return(
     <>
+    
     <div className="layout mt-5">
-      <div className=' container p-0 '>  <img src='https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-banner-web-collection-202208191200.png' className='premierImg ps-5' ></img>
+      <div className='container  '>  <img src='https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-banner-web-collection-202208191200.png' className='premierImg ps-5' ></img>
     </div>
     <div className="container p-3 ps-5 liveEventsContainer text-white">
           <h3 className='m-0'>Premieres</h3>

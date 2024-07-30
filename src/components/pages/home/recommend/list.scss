@@ -1,25 +1,35 @@
-.mySwiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .card {
-    width: 100%;
-    max-width: 300px; /* Adjust the width as needed */
-    margin: 0 auto;
-    border: none;
- 
-  }
- .card-img-top{
-  border-radius: 10px;
- } 
 
- .card-body{ 
- margin: 4px 0px 0px; 
- padding: 4px 0px 0px;
- } 
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 90%;
+
+  margin: 0 auto;
+  border: none;
+
+}
+.card-img-top{
+border-radius: 10px;
+} 
+
+.card-body{ 
+margin: 4px 0px 0px; 
+padding: 4px 0px 0px;
+} 
+
+@media (max-width: 768px) {
+  .recommendContainer {
+    width: 100%;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

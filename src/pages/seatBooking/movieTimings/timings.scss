@@ -1,0 +1,63 @@
+.timingsWrapper{
+    height: 100vh;
+    background-color: rgb(189, 189, 189)
+}
+.timingsContainer{
+    background-color: white;
+    height: 100vh;
+}
+.attributes-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    cursor: default;
+    border-bottom: 1px solid #f2f2f2;
+}
+.legends-container{
+    display: flex;
+    justify-content: flex-end
+}
+.showtimes-legends{
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.legend-icon{
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #4abd5d;
+    margin-right: 8px;
+}
+.legend-text{
+    color: #717171;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.fast{
+    background-color: #f60;
+}
+.hallinfo{
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.hallName{
+    display: table-cell;
+    vertical-align: top;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 20px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    .hallNameTag:hover{
+        text-decoration: underline;
+
+    }
+}
+.timingBox{
+    border: solid 1px rgb(47, 46, 46);
+    border-radius: 10px;
+}

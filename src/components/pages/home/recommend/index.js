@@ -13,7 +13,7 @@ export const MoviesList = () => {
 
   return (
     <>
-      <div className="container p-3 ps-5 liveEventsContainer">
+      <div className="container pt-4   recommendContainer">
         <h3>Recommended Movies</h3>
 
         <Swiper
@@ -23,7 +23,22 @@ export const MoviesList = () => {
           slidesPerView={5}
           spaceBetween={10}
           slidesPerGroup={5}
+          breakpoints={{
+            320: {
+              slidesPerView: 5,
+              spaceBetween: 5,
+            },
+            768: {
+              slidesPerView: 5,
+              spaceBetween: 10,
+            },
+            1200: {
+              slidesPerView: 5,
+              spaceBetween: 10,
+            },
+          }}
         >
+
           {movieList.map((movie) => (
             <SwiperSlide>
               <div className="card" onClick={()=>handleGoMovieDetail(movie.id)}>
@@ -31,7 +46,7 @@ export const MoviesList = () => {
 
                 <div className="card-body">
                   <h5 className="card-title">{movie.name}</h5>
-                  <p>{movie.movieGenre}</p>
+                  <p>{movie.movieGenre }</p>
                 </div>
               </div>
             </SwiperSlide>

@@ -3,6 +3,7 @@ import { movieList } from "../../assets/data/movie"
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { Calendar } from "./calendar"
+import { Timings } from "./movieTimings"
 
 export const SeatBooking =()=>{
     const {movieId}=useParams()
@@ -19,6 +20,7 @@ export const SeatBooking =()=>{
        <>
        <MovieTitle movie={movie} />
        <Calendar/>
+       <Timings/>
        </>
     )
 }
