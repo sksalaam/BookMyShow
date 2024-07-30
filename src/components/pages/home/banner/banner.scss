@@ -2,16 +2,15 @@
           .swiper-button-prev {
             width: 40px;
             height: 40px;
-            background-color: rgba(0, 0, 0, 0.358);
+            background-color: rgba(0, 0, 0, 0.573);
             border-radius: 5px;
             border: none;
-        
-            color: rgb(226, 227, 227);
+            color: rgb(255, 255, 255);
             &::after{
                 font-size: 12px;
             }
-        }
-
+        
+}
 
 .bann{
     margin: 0;

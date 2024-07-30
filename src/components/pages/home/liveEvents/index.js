@@ -32,8 +32,8 @@ export const LiveEvents = () => {
 
   return (
     <>
-      <div className="container mt-5 p-3 ps-5 liveEventsContainer">
-          <h3>The Best Of Live Events</h3>
+      <div className="container mt-5 liveEventsContainer">
+          <h3 className='heading3'>The Best Of Live Events</h3>
        
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={5} spaceBetween={10}>
       

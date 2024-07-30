@@ -2,7 +2,7 @@ import "./banner2.scss";
 
 export const TextImage = () => {
   return (
-    <div className="container  mt-5 p-3 ps-5  banner2Container">
+    <div className="container mt-5 banner2Container">
       <div>
       <img
         className="textImage"

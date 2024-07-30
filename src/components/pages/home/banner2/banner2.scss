@@ -4,28 +4,11 @@
     height: 100%;
     
 }
-@media(min-width:576px){
-    body::before{
-        padding-left: 0;
-        padding-right: 0;
-}}
-@media(min-width:768px){
-    body::before{
-        padding-left: 0;
-        padding-right: 0;
-}}
-@media(min-width:992px){
-    body::before{
-        padding-left: 0;
-        padding-right: 0;
-}}
-@media(min-width:1200px){
-    body::before{
-        padding-left: 0;
-        padding-right: 0;
-}}
-@media(min-width:1400px){
-    body::before{
-        padding-left: 0;
-        padding-right: 0;
-}}
+@media (max-width:450px){
+    .banner2Container{
+       padding: 0;
+       margin: 0;
+       margin-top: 20px;
+    }
+   
+}

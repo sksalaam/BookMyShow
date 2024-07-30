@@ -39,12 +39,14 @@ export const Premieres =()=>{
    return(
     <>
     
-    <div className="layout mt-5">
-      <div className='container  '>  <img src='https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-banner-web-collection-202208191200.png' className='premierImg ps-5' ></img>
+    <div className="layout mt-5"> 
+      <div className="container liveEventsContainer">
+      <div >  
+        <img src='https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-banner-web-collection-202208191200.png' className='premierImg container ' ></img>
     </div>
-    <div className="container p-3 ps-5 liveEventsContainer text-white">
-          <h3 className='m-0'>Premieres</h3>
-          <p className='m-0'>Brand new releases every Friday</p>
+    <div className=" text-white">
+          <h3 className='container h3cont'>Premieres</h3>
+          <p className='container pcont'>Brand new releases every Friday</p>
        
           <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={5} spaceBetween={10} slidesPerGroup={5}>
       
@@ -61,6 +63,7 @@ export const Premieres =()=>{
           </SwiperSlide>
         ))}
       </Swiper>
+      </div>
       </div>
     </div>
     </>
