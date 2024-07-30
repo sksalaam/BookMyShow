@@ -14,7 +14,7 @@ export const MoviesList = () => {
   return (
     <>
       <div className="container pt-4   recommendContainer">
-        <h3>Recommended Movies</h3>
+        <h3 className="heading3">Recommended Movies</h3>
 
         <Swiper
           navigation={true}
@@ -46,7 +46,7 @@ export const MoviesList = () => {
 
                 <div className="card-body">
                   <h5 className="card-title">{movie.name}</h5>
-                  <p>{movie.movieGenre }</p>
+                  <p className="moviegenre">{movie.movieGenre }</p>
                 </div>
               </div>
             </SwiperSlide>

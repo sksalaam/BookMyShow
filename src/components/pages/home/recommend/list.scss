@@ -24,12 +24,27 @@ border-radius: 10px;
 margin: 4px 0px 0px; 
 padding: 4px 0px 0px;
 } 
+.moviegenre{
+  color: gray;
+}
 
-@media (max-width: 768px) {
-  .recommendContainer {
-    width: 100%;
-    max-width: none;
-    padding-left: 0;
-    padding-right: 0;
-  }
+@media (max-width: 450px){
+  .recommendContainer{
+ padding: 0;
+ margin: 0;
+ font-size: 19px !important;
+  
+ .heading3{
+  font-size: 15px;
+ }
+ .card-title{
+  font-size: 15px;
+  margin: 0;
+ }
+ 
+.moviegenre{
+  font-size: 8px;
+ 
+}
+}
 }
