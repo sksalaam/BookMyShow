@@ -3,7 +3,7 @@ import logo from './logo.png'
 import { useNavigate } from "react-router-dom";
 import { GenericSearch } from './genericSearch';
 
-export const Header = () => {
+export const Header = () => { 
   
   const navigate = useNavigate();
   const handleLogoClick =()=>{
@@ -15,7 +15,7 @@ export const Header = () => {
     <nav className="navbar bg-white shadow app-header ">
       <div className="container mt-0 p-2 ">
         <div className="navbar-logo">
-          <img src={logo} alt='BookMyShow' onClick={handleLogoClick}/>
+          <img src={logo} alt='BookMyShow' className='bookmyshowlogo' onClick={handleLogoClick}/>
         </div>
         <GenericSearch/>
         <div className="d-flex align-items-center ">
