@@ -2,6 +2,8 @@
 .mySwiper {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .swiper-slide {
@@ -11,7 +13,6 @@
 
 .card {
   width: 90%;
-
   margin: 0 auto;
   border: none;
 
@@ -35,17 +36,18 @@ padding: 4px 0px 0px;
  font-size: 19px !important;
   
  .heading3{
-  font-size: 15px;
+  font-size: 25px;
  }
  .card-title{
-  font-size: 10px;
+  font-size: 18px;
   margin: 0;
  }
  
 .moviegenre{
-  font-size: 8px;
+  font-size: 15px;
  
 }
+
 .swiper-button-next,
 .swiper-button-prev {
     top: 50%; 
@@ -55,3 +57,4 @@ padding: 4px 0px 0px;
 
 }
 }
+
