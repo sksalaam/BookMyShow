@@ -32,21 +32,21 @@ img{
 }
 }
 
-@media(max-width:450px){
-    .container{
-     
-    }
-    .login-btn{
+@media(max-width:500px){
+    .app-header{
+        display: flex;
+        justify-content: start;
+     .login-btn {
         display: none;
-    }
-    .header-btn{
-        display: none;
+     }
     }
  
 }
-@media(max-width:600px){
-    .login-btn{
-        display: none;
+@media(max-width:650px){
+    .app-header{
+        display: flex;
+        justify-content: start;
+     
     }
 
 }
