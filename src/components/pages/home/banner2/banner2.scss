@@ -2,13 +2,19 @@
 .textImage{
     width: 100%;
     height: 100%;
+    margin-top: 40px;
     
 }
 @media (max-width:450px){
     .banner2Container{
        padding: 0;
-       margin: 0;
+       margin: 5px;
        margin-top: 20px;
+       .textImage{
+       height: 60px ;
+       object-fit: fill;
+
+       }
     }
    
 }
