@@ -15,7 +15,8 @@ export const Header = () => {
     <nav className="navbar bg-white shadow app-header ">
       <div className="container mt-0 p-2 ">
         <div className="navbar-logo">
-          <img src={logo} alt='BookMyShow' className='bookmyshowlogo' onClick={handleLogoClick}/>
+          <img src={logo} alt='BookMyShow' className='bookmyshowlogo ' onClick={handleLogoClick}/>
+          
         </div>
         <GenericSearch/>
         <div className="d-flex align-items-center ">

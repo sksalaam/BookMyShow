@@ -35,7 +35,30 @@ export const LiveEvents = () => {
       <div className="container mt-5 liveEventsContainer">
           <h3 className='heading3'>The Best Of Live Events</h3>
        
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={5} spaceBetween={10}>
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={5} spaceBetween={10}
+       breakpoints={{
+        320: {
+          slidesPerView: 3,
+          slidesPerGroup: 1,
+          spaceBetween: 5,
+        
+        },
+        450:{
+          slidesPerView: 3,
+          spaceBetween: 1,
+          slidesPerGroup: 1,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 5,
+          slidesPerGroup: 3,
+         
+        },
+        1200: {
+          slidesPerView: 5,
+          spaceBetween: 10,
+        },
+      }}>
       
         {liveEventImg.map((liveEvent) => (
           <SwiperSlide >

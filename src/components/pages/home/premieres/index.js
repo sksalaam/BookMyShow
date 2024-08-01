@@ -48,7 +48,30 @@ export const Premieres =()=>{
           <h3 className='container h3cont'>Premieres</h3>
           <p className='container pcont'>Brand new releases every Friday</p>
        
-          <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={5} spaceBetween={10} slidesPerGroup={5}>
+          <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={5} spaceBetween={10} slidesPerGroup={5}
+           breakpoints={{
+            320: {
+              slidesPerView: 3,
+              slidesPerGroup: 1,
+              spaceBetween: 5,
+            
+            },
+            450:{
+              slidesPerView: 3,
+              spaceBetween: 1,
+              slidesPerGroup: 1,
+            },
+            768: {
+              slidesPerView: 4,
+              spaceBetween: 5,
+              slidesPerGroup: 3,
+             
+            },
+            1200: {
+              slidesPerView: 5,
+              spaceBetween: 10,
+            },
+          }}>
       
         {premiereImg.map((premier) => (
           

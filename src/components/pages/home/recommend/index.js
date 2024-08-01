@@ -25,20 +25,20 @@ export const MoviesList = () => {
           slidesPerGroup={5}
           breakpoints={{
             320: {
-              slidesPerView: 1,
+              slidesPerView: 3,
               slidesPerGroup: 1,
               spaceBetween: 5,
             
             },
             450:{
-              slidesPerView: 1,
+              slidesPerView: 3,
               spaceBetween: 1,
               slidesPerGroup: 1,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 5,
-              slidesPerGroup: 1,
+              slidesPerGroup: 3,
              
             },
             1200: {
