@@ -246,11 +246,23 @@ a {
     .bannerContainer{
        .bannerContent{
         width: 100%;
-        
+
        }
+    }
+    .cardContainer{
+        width: 80%;
     }
     .sharebtnContainer{
         display: none;
+        width: 100%;
     }
+    .bookTicketBtnContainer{
+        width: 80%;
+        
+    }.reviewSec{
+        display: none;
+
+    }
+
 }
 

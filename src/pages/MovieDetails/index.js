@@ -13,8 +13,6 @@ export const MovieDetails = () => {
 
  useEffect(()=>{
 
-  debugger
-
   const det= movieList.find((data)=>data.id == movieId)
 
   setMovieDetail(det)
