@@ -15,7 +15,30 @@ export const Cast = ({movieDetail={}}) => {
 
        <div className="row">
         <div className="col-8">
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={6} spaceBetween={1}>
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={6} spaceBetween={1}
+      breakpoints={{
+        320: {
+          slidesPerView: 3,
+          slidesPerGroup: 1,
+          spaceBetween: 5,
+        
+        },
+        450:{
+          slidesPerView: 3,
+          spaceBetween: 1,
+          slidesPerGroup: 1,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 5,
+          slidesPerGroup: 3,
+         
+        },
+        1200: {
+          slidesPerView: 5,
+          spaceBetween: 10,
+        },
+      }}>
         {element.data.map((cast)=>(
       
             <SwiperSlide>

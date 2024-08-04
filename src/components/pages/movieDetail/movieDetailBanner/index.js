@@ -22,7 +22,7 @@ export const MovieDetailsBanner = ({ movieDetail = {} }) => {
       ), url(${movieDetail.bannerImg})`,
           }}
         >
-          <div className="container py-4">
+          <div className="container ">
             <div className="row">
               <div className="col-9">
                 <div class="d-flex align-items-center">
