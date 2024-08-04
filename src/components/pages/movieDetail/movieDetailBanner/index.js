@@ -25,7 +25,7 @@ export const MovieDetailsBanner = ({ movieDetail = {} }) => {
           <div className="container ">
             <div className="row">
               <div className="col-9">
-                <div class="d-flex align-items-center">
+                <div class="movieDetailCon">
                   <div class="flex-shrink-0 imgContainer">
                     <div className="cardContainer">
                       <img

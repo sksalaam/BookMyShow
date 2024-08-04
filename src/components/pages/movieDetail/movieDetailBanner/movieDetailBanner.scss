@@ -7,6 +7,11 @@
     width: 100%;
     background-color: rgb(26, 26, 26);
 }
+.movieDetailCon{
+   display: flex;
+   align-items: center;
+
+}
 .bannerContent {
     min-height: 480px;
     width: 92%;
@@ -242,27 +247,5 @@ a {
     
 }
 
-@media(max-width:450px){
-    .bannerContainer{
-       .bannerContent{
-        width: 100%;
 
-       }
-    }
-    .cardContainer{
-        width: 80%;
-    }
-    .sharebtnContainer{
-        display: none;
-        width: 100%;
-    }
-    .bookTicketBtnContainer{
-        width: 80%;
-        
-    }.reviewSec{
-        display: none;
-
-    }
-
-}
 
